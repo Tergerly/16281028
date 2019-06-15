@@ -19,16 +19,8 @@ int main(int argc, char* argv[])
 	FILES* f;
 	printf("\n");
 	printf("欢迎来到文件系统，功能显示如下：\n");
-	printf(" 0. 退出系统\n");
-	printf(" 1. 文件列表\n");
-    printf(" 2. 创建文件\n");
-    printf(" 3. 删除文件\n");
-    printf(" 4. 打开文件\n");
-    printf(" 5. 关闭文件\n");
-    printf(" 6. 读取文件\n");
-    printf(" 7. 写入文件\n");
-    printf(" 8. 移动指针\n\n\n");
-
+	printf(" 0. 退出系统\t1. 文件列表\t2. 创建文件\t3. 删除文件\t4. 打开文件\n");
+    printf(" 5. 关闭文件\t6. 读取文件\t7. 写入文件\t8. 移动指针\n\n");
     while(1) {
 		//对应输入不合法的情况
 		n = 9;
